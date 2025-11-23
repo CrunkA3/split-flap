@@ -1,11 +1,12 @@
+import math
+
 import cadquery as cq
 from cadquery import exporters
-import math
 
 WHEEL_DIAMETER = 69.3
 
 NUM_FLAP_HOLES = 45
-FLAP_HOLE_DIAMETER = 1.8
+FLAP_HOLE_DIAMETER = 2
 FLAP_HOLE_DISTANCE = 32.45
 
 wheel = (
